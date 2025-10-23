@@ -1,0 +1,21 @@
+{
+    "name": "sundsvall/integration_eneo",
+    "description": "Eneo AI Integration for Nextcloud Hub",
+    "type": "project",
+    "license": "AGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Sundsvalls kommun",
+            "email": "integration@sundsvall.se"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "OCA\\IntegrationEneo\\": "lib/"
+        }
+    }
+}
+

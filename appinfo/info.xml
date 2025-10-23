@@ -46,7 +46,7 @@ When using Eneo with local models:
 	<version>1.0.0</version>
 	<licence>agpl</licence>
 	<author>Sundsvalls kommun</author>
-	<namespace>Eneo</namespace>
+	<namespace>IntegrationEneo</namespace>
 	<documentation>
 		<developer>https://github.com/FredrikJonassonItsb/ITSLyzer</developer>
 	</documentation>
