@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<!--
+  - SPDX-FileCopyrightText: 2025 Sundsvalls kommun
+  - SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+<info>
+	<id>integration_eneo</id>
+	<name>Eneo AI Integration</name>
+	<summary>Integration of Eneo AI platform with Nextcloud Hub</summary>
+	<description><![CDATA[
+This app integrates the Eneo AI platform (generativ AI för offentlig sektor) with Nextcloud Hub.
+
+**Features:**
+
+* **Single Sign-On (SSO)**: Seamless authentication between Nextcloud and Eneo using OAuth2
+* **Smart Picker Integration**: Access Eneo AI assistant directly from Text, Talk, Mail, and other Nextcloud apps
+* **File Context**: Let Eneo AI analyze and answer questions about your Nextcloud files
+* **Reference Provider**: Preview Eneo conversations and content in Nextcloud
+* **Privacy-First**: All AI processing happens on your own infrastructure, no external cloud services
+* **GDPR Compliant**: Full control over data processing and storage
+
+**How to use:**
+
+1. Configure the Eneo API endpoint in admin settings
+2. Set up OAuth2 credentials for SSO
+3. Use the Smart Picker (/) in any Nextcloud app to access Eneo AI
+4. Select files to give Eneo context for better answers
+
+**About Eneo:**
+
+Eneo is an open-source AI platform (AGPL-3.0) developed for Swedish public sector, focusing on:
+* Local deployment and data sovereignty
+* Swedish language support
+* GDPR and AI Act compliance
+* Democratic and transparent AI usage
+
+Learn more: https://github.com/eneo-ai/eneo
+
+**Ethical AI Rating: 🟢**
+
+When using Eneo with local models:
+* Open source software for training and inference
+* Models can be run on-premises
+* Full control over data and algorithms
+]]>	</description>
+	<version>1.0.0</version>
+	<licence>agpl</licence>
+	<author>Sundsvalls kommun</author>
+	<namespace>Eneo</namespace>
+	<documentation>
+		<developer>https://github.com/FredrikJonassonItsb/ITSLyzer</developer>
+	</documentation>
+	<category>integration</category>
+	<category>ai</category>
+	<category>tools</category>
+	<website>https://github.com/FredrikJonassonItsb/ITSLyzer</website>
+	<bugs>https://github.com/FredrikJonassonItsb/ITSLyzer/issues</bugs>
+	<dependencies>
+		<nextcloud min-version="26" max-version="32"/>
+	</dependencies>
+	<settings>
+		<admin>OCA\Eneo\Settings\Admin</admin>
+		<personal>OCA\Eneo\Settings\Personal</personal>
+	</settings>
+</info>
+

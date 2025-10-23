@@ -1,0 +1,68 @@
+/**
+ * SPDX-FileCopyrightText: 2025 Sundsvalls kommun
+ * SPDX-License-Identifier: AGPL-3.0-or-later
+ */
+
+#eneo_settings {
+	margin-bottom: 40px;
+}
+
+#eneo_settings h2 {
+	margin-bottom: 10px;
+}
+
+#eneo_settings h3 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.eneo-settings-group {
+	margin-bottom: 30px;
+	padding: 15px;
+	background-color: var(--color-background-hover);
+	border-radius: var(--border-radius-large);
+}
+
+.eneo-setting {
+	margin-bottom: 15px;
+}
+
+.eneo-setting label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: 500;
+}
+
+.eneo-setting input[type="text"],
+.eneo-setting input[type="url"],
+.eneo-setting input[type="password"] {
+	width: 100%;
+	max-width: 400px;
+	padding: 8px;
+	border: 1px solid var(--color-border);
+	border-radius: var(--border-radius);
+}
+
+.eneo-setting input[type="checkbox"] {
+	margin-right: 8px;
+}
+
+.eneo-settings-actions {
+	margin-top: 20px;
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+
+#eneo-settings-status {
+	color: var(--color-text-lighter);
+	font-style: italic;
+}
+
+.settings-hint {
+	color: var(--color-text-lighter);
+	font-size: 0.9em;
+	margin-top: 5px;
+}
+

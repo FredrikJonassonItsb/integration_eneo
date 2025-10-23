@@ -1,0 +1,90 @@
+/**
+ * SPDX-FileCopyrightText: 2025 Sundsvalls kommun
+ * SPDX-License-Identifier: AGPL-3.0-or-later
+ */
+
+#eneo_personal_settings {
+	margin-bottom: 40px;
+}
+
+#eneo_personal_settings h2 {
+	margin-bottom: 10px;
+}
+
+#eneo_personal_settings h3 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.eneo-setting {
+	margin-bottom: 15px;
+}
+
+.eneo-setting label {
+	display: flex;
+	align-items: center;
+	font-weight: 500;
+}
+
+.eneo-setting input[type="checkbox"] {
+	margin-right: 8px;
+}
+
+.eneo-oauth-status {
+	margin-top: 20px;
+	padding: 15px;
+	background-color: var(--color-background-hover);
+	border-radius: var(--border-radius-large);
+}
+
+.eneo-status-connected {
+	color: var(--color-success);
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin-bottom: 10px;
+}
+
+.eneo-status-disconnected {
+	color: var(--color-error);
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin-bottom: 10px;
+}
+
+.eneo-usage-info {
+	margin-top: 20px;
+	padding: 15px;
+	background-color: var(--color-background-hover);
+	border-radius: var(--border-radius-large);
+}
+
+.eneo-usage-info ul {
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.eneo-usage-info li {
+	margin-bottom: 8px;
+}
+
+.eneo-privacy-notice {
+	margin-top: 20px;
+	padding: 15px;
+	background-color: var(--color-info-background);
+	border-left: 3px solid var(--color-info);
+	border-radius: var(--border-radius);
+}
+
+.eneo-privacy-notice p {
+	margin-bottom: 10px;
+}
+
+.settings-hint {
+	color: var(--color-text-lighter);
+	font-size: 0.9em;
+	margin-top: 5px;
+}
+
